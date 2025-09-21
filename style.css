@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inter:wght@400;600&display=swap');
+
+body {
+    background-color: linen;
+    color: darkslategray;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header h1, h2, h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: darkslategray;
+    border-bottom: 2px solid goldenrod;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    display: block;
+    text-align: center;
+    border-bottom: none;
+    font-size: 2.5rem;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.profile-picture {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    border: 2px solid darkslategray;
+    padding: 5px;
+    background-color: linen;
+    transition: transform 0.2s ease-in-out;
+}
+
+.profile-picture:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+ul {
+    list-style-type: '→ ';
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    border: 2px solid darkslategray;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid darkslategray;
+}
+
+th {
+    background-color: linen;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+tbody tr:nth-child(even) {
+    background-color: ivory;
+}
+
+.media-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.media-item {
+    text-align: center;
+    flex-basis: 400px;
+}
+
+
+video, audio {
+    max-width: 100%;
+    border: 2px solid darkslategray;
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    border: 2px solid darkslategray;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 4px 4px 0px darkslategray;
+}
+
+button:hover {
+    background-color: lightsteelblue;
+}
+
+button:active {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+
+.interactivity {
+    text-align: center;
+    margin-top: 2rem;
+}
